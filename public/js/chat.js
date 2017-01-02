@@ -18,7 +18,6 @@ function scrollToBottom () {
 
 socket.on('connect', function () {
     console.log('Connected to Server!');
-
 });
 
 socket.on('disconnect', function () {
